@@ -154,11 +154,11 @@ footer styles
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 30px;
 }
 .footer-container{
     width: 484px;
     height: 213px;
-
 } 
 .logo{
     width: 484px;
@@ -178,3 +178,32 @@ footer styles
     font-size: 18px;
 }
 
+/* media query */
+
+ /* mobile */
+
+ @media only screen and (max-width:360px) {
+    .players-area, .videos, .all-partner{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .container, .all-videos, .partners{
+        flex-direction: column; 
+        align-items: center;
+    }
+    /* .logo{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;       
+    }*/
+    .footer-container{
+        width: 100%;
+    } 
+    .header-area, .footer-area{
+        display: none;
+    }
+    main{
+        width: 100%;
+    }
+    
+}
