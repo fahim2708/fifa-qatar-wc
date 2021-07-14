@@ -9,6 +9,18 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 /* Header Style */
+.banner{
+    transition: transform 1s;
+}
+.live-button:hover{
+    color: grey;
+    background-color: white;
+}
+
+.header:hover .banner{
+    transform: scale(1.25);
+    
+}
 
 .header{
     background-color: #2D25A0;
@@ -35,6 +47,7 @@ body{
     padding: 10px 24px 10px 24px;
     color: #FFFFFF;
 }
+
 .arrow-icon{
     margin-left: 8px;
 }
