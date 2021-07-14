@@ -1,7 +1,7 @@
-/* fonts */
+/* import google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
-/* common style */
+/* common styles */
 
 body{
     margin: 0;
@@ -12,37 +12,25 @@ hr{
     border: 1px solid #D1D1D1;
     margin-bottom: 27px;
 }
-/* Header Style */
-.banner{
-    transition: transform 1s;
-}
-.live-button:hover{
-    color: grey;
-    background-color: white;
-}
 
-.header:hover .banner{
-    transform: scale(1.25);
-    
-}
 
-.header{
+/*---------------------
+  Header-Section Style 
+  ---------------------*/
+.header-area{
     background-color: #2D25A0;
     height: 677px;
 }
-.header-area{
+.header{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     padding: 90px 140px 90px 140px;
-
 }
-
 .header-left h2{
     font-size: 64px;
     color: #FFFFFF;
 }
-
 .live-button{
     width: 168px;
     height: 44px;
@@ -51,41 +39,36 @@ hr{
     padding: 10px 24px 10px 24px;
     color: #FFFFFF;
 }
-
 .arrow-icon{
-    margin-left: 8px;
+    padding-left: 10px;
+}
+.live-button:hover{
+    color: grey;
+    background-color: white;
+}
+.header:hover .banner{
+    transform: scale(1.25); 
+}
+.banner{
+    transition: transform 1s;
 }
 .header-right img{
     width: 556.01px;
     height: 438px;
 }
 
-/* partners */
-.partners{
-    display: flex;
-    justify-content: center;
-}
-.partners-title{
-    text-align: center;
-    font-weight: 700px;
-}
-.partner{
-    margin: 20px 50px 20px 50px;
-}
-.partner-logo{
-    width: 150px;
-    height: 80px;
-}
 
-/* scorers */
-.new-area{
+/*-------------
+ players styles 
+ --------------*/
+.container{
     display: flex;
     justify-content: center;
     margin-top: 70px;
     margin-bottom: 70px;
     
 }
-.scorers-area{
+.players-area{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-row-gap: 27px;
@@ -96,41 +79,87 @@ hr{
     width: 100%;
     height: 256px;
 }
-.scorers{
+.players{
     box-shadow: 5px 5px 10px grey;
 }
-.scorer{
+.player{
     background-color: #f5f6fa;
     padding: 15px;
     width: 330px;
     height: 474px;
 }
-.scorer h2{
+.player h2{
     font-size: 28px;
     font-weight: 700;
     
 }
 
-.scorer p{
+.player p{
     font-size: 16px;
     font-weight: 400;
     color: #6C6C6C;
     text-align: justify;
 }
 
+/*-----------------
+latest videos style 
+------------------*/
+.all-videos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.latest-videos{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.videos{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-row-gap: 15px;
+    grid-column-gap: 15px;
+}
+.video{
+    padding: 15px;
+    width: 250px;
+    height: 300px;
+}
 
-/* footer */
+/*------------------ 
+fifa-partners style 
+-------------------*/
+
+.partners-title{
+    text-align: center;
+    font-weight: 700px;
+}
+.partners{
+    display: flex;
+    justify-content: center;
+}
+.partner{
+    margin: 20px 50px 30px 50px;
+}
+.partner-logo{
+    width: 150px;
+    height: 80px;
+}
+
+/* ----------
+footer styles
+-------------*/
+
+.footer-area{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .footer-container{
     width: 484px;
     height: 213px;
 
 } 
-.footer-area{
-    
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 .logo{
     width: 484px;
     height: 110px;
@@ -139,14 +168,13 @@ hr{
 .social-icons{
    text-align: center;
 }
-
-.copyright{
-    text-align: center;
-    font-size: 18px;
-}
-
 .icon{
     color: grey;
     padding: 14px;
     font-size: 20px;
 }
+.copyright{
+    text-align: center;
+    font-size: 18px;
+}
+
