@@ -1,0 +1,154 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* common style */
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+/* Header Style */
+
+.header{
+    background-color: #2D25A0;
+    height: 677px;
+}
+.header-area{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 90px 140px 90px 140px;
+
+}
+
+.header-left h2{
+    font-size: 64px;
+    color: #FFFFFF;
+}
+
+.live-button{
+    width: 168px;
+    height: 44px;
+    background-color: #E02C6D;
+    text-decoration: none;
+    padding: 10px 24px 10px 24px;
+    color: #FFFFFF;
+}
+.arrow-icon{
+    margin-left: 8px;
+}
+.header-right img{
+    width: 556.01px;
+    height: 438px;
+}
+
+/* scorers */
+.new-area{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    
+}
+.scorers-area{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 27px;
+    grid-column-gap: 30px;
+}
+
+.player-image{
+    width: 100%;
+    height: 256px;
+}
+.scorer{
+    background-color: #f5f6fa;
+    padding: 15px;
+    width: 330px;
+    height: 474px;
+}
+.scorer h2{
+    font-size: 28px;
+    font-weight: 700;
+    
+}
+
+.scorer p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #6C6C6C;
+    text-align: justify;
+}
+
+
+
+
+
+/* .container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    grid-column-gap: 30px; 
+    width: 1050px; 
+    margin: 70px 20% 70px 20%;
+      
+}
+
+.scorers{ 
+    padding: 15px;
+}
+ .scorer{
+     background-color: #dfe4ea;
+     padding: 15px;
+    
+} 
+.scorer img{
+    width: 100%;
+    height: 256px;
+    
+}
+
+.scorer h2{
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.scorer p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #6C6C6C;
+    text-align: justify;
+} */
+
+/* footer */
+.footer-container{
+    width: 484px;
+    height: 213px;
+
+} 
+.footer-area{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logo{
+    width: 484px;
+    height: 110px;
+}
+
+.social-icons{
+   text-align: center;
+}
+
+.copyright{
+    text-align: center;
+    font-size: 18px;
+}
+
+.icon{
+    color: grey;
+    padding: 14px;
+    font-size: 20px;
+}
